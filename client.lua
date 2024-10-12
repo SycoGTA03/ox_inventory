@@ -1762,7 +1762,7 @@ lib.callback.register('ox_inventory:startCrafting', function(id, recipe)
 		label = locale('crafting_item', recipe.metadata?.label or Items[recipe.name].label),
 		duration = recipe.duration or 3000,
 		canCancel = true,
-        useWhileDead = false,
+                useWhileDead = false,
 		disable = {
 			move = true,
 			combat = true,
